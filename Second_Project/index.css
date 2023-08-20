@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('test.jpg');
+    background-size: cover;
+}
+.container{
+    width: 30%;
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+button{
+    border: none;
+    background-color: pink;
+    min-height: 30px;
+    width: 100px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    color:azure;
+    margin-top: 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: palevioletred;
+}
+.btn-container{
+    margin-top: 5rem;
+}
+
+.value{
+    font-size: 120px;
+    color:whitesmoke;
+    margin-top: 2rem;
+}
+.count{
+    font-size: 50px;
+    color:aqua
+
+}
